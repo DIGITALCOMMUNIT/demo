@@ -1,0 +1,30 @@
+header {
+	background: #09b4a0;
+
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 30px 0;
+}
+
+.imagen-de-fondo{
+
+  display: flex;
+  justify-content: center;
+
+
+}
+
+
+  .body{
+    color: black;
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* Estilos CSS para pantallas pequeñas */
+    .imagen-de-fondo {
+      background-size: contain;
+    }
+  }
